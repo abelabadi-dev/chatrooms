@@ -1,0 +1,28 @@
+{
+  "name": "chatrooms",
+  "version": "1.0.0",
+  "description": "Minimalist multiroom chat server",
+  "main": "index.js",
+  "dependencies":{
+  	"socket.io": "~0.9.6",
+	"mime": "~1.2.7"
+  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abule/chatrooms.git"
+  },
+  "keywords": [
+    "chat",
+    "server",
+    "node"
+  ],
+  "author": "abel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abule/chatrooms/issues"
+  },
+  "homepage": "https://github.com/abule/chatrooms#readme"
+}
