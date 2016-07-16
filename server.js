@@ -54,3 +54,7 @@ function serveStatic(response, cache, absPath) {
 		});
 	}
 }
+
+//socket.io
+var chatServer = require('./lib/chat_server');
+chatServer.listen(server);
